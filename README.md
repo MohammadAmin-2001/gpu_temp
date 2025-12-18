@@ -65,8 +65,8 @@ For continuous monitoring, set up as a systemd service:
 
    [Service]
    Type=oneshot
-   WorkingDirectory=/home/amin/Desktop/temp_gpu
-   ExecStart=/usr/bin/python3 /home/amin/Desktop/temp_gpu/gpu_tmp.py
+   WorkingDirectory= path/to/temp_gpu
+   ExecStart=/usr/bin/python3 path/to/temp_gpu/gpu_tmp.py
    User=your-username
    Restart=on-failure
 
